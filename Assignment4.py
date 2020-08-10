@@ -1,11 +1,11 @@
-#Print unique vowel in the given word
+# program to print unique vowel in the given word
 
 s=input("enter the name:")
 for i in s:
     if i=='a'or i=='e'or i=='i'or i=='o' or i=='u':
         print(i,end=" ")
 
-# enter the name and percentage marks and display information
+#  program to enter the name and percentage marks and display information
 d={}
 n=int(input("enter the number : "))
 for i in range(n):
