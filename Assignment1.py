@@ -1,4 +1,4 @@
-# highest value between two numbers
+# Program to find the highest value  of the two numbers given by the  user
 
 num1=int(input("enter the first number : "))
 num2=int(input("enter the second number : "))
@@ -9,7 +9,7 @@ else:
 
 
 
-# Enter value is even or odd number
+# Program user enter even or odd number 
 
 num=int(input("Enter the number : "))
 if num%2==0:
@@ -63,7 +63,7 @@ else:
 
 
 
-#number between 1 to 100
+# program to check the given number between 1 to 100
 num= int(input("Enter number : "))
 if(num<100):
     print("given number is in tthe range of 1 to 100")
@@ -72,13 +72,13 @@ else:
 
 
 
-#single digit number 0 to 9 into english word
+#single digit number from keyboard and print the value in  english word
 number=["ZERO","ONE","++TWO","THREE","FOUR","FIVE","SIX","SEVEN","EIGHT","NINE"]
 n=int(input("Enter any number : "))
 print(number[n])
 
 
-#number 1 to 10 using for loop
+# display number 1 to 10 using forloop
 for num in range(1,11):
     print(num,end=" ")
 
@@ -102,23 +102,23 @@ for i in range(10,21):
             print(i,end=" ")
 
 
-#missed number
+# display the missed value between 10 and 20
 list=[10,12,15,18,30,40]
 for i  in range(10,21):
      if i not in list:
          print(i,end=" ")
 
 
-# 8th table
+#  display the 8th table by using for loop
 for i in range(1,11):
      print("8 *",i,"=",i*8)
 
-# table as user input
+# display the table as per as user requirement 
 num=int(input("Enter the number:"))
 for i in range(1,11):
    print(num ,"*",i,"=",i*num)
 
-#number divisible by3 in the list
+# displaythe missed number divisible by 3 in the list upto 20
 list=[12,11,18,9,6,4,8]
 for i in range(21):
       if i  not in list:
@@ -126,13 +126,13 @@ for i in range(21):
               print(i,end=" ")
 
 
-#divisible by 3 but not 5
+# program divisible by 3 but not 5
 list=[12,15,10,18,40,6]
 for i in list:
       if i%3==0 and i%5!=0:
           print(i,end=" ")
 
-#number is prime or not
+# display the given number is prime or not
 num =int(input("Enter the number : "))
 for i in range(2,num):
     if num%2==0:
